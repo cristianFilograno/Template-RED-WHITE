@@ -1,0 +1,292 @@
+* {
+   font-family: 'Rajdhani', sans-serif; 
+}
+
+
+.f-main {
+    font-family: 'Nova Square', cursive;
+}
+
+:root {
+    --c-main: darkred;
+    --c-sec: #C67F7F ;
+    --c-accent: #ececec ;
+}
+
+.tx-main {
+    color: var(--c-main);
+}
+.tx-sec {
+    color: var(--c-sec);
+}
+
+.tx-acc {
+    color: var(--c-accent);
+}
+
+.bg-main {
+    background-color: var(--c-main);
+}
+.bg-sec {
+    background-color: var(--c-sec);
+}
+.bg-accent {
+    background-color: var(--c-accent);
+}
+
+.section-1 {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    height: 85vh;
+    background-color: #ececec;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255,255,255,0) ), url(/RED/media/switzerland-862870_1920.jpg);
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.montagna {
+    width: 100vw;
+    object-position: bottom;
+    height: 70vh;
+    
+    
+}
+
+.head-font {
+    font-size: 6vmax;
+    letter-spacing: 4vmax;
+}
+
+@media (max-width: 768px) {
+    .section-1 {
+        height: 50vh;
+    }
+
+    .montagna {
+        height: 35vh;
+    }
+}
+
+
+/* 
+.sux {
+    font-size: 100px;
+}
+ 
+.blockquote {
+    font-weight: unset;
+    ---VEDERE MEGLIO L'UNSET (UNSET-ALL)
+}
+*/
+.font-ita {
+    font-style: italic; 
+
+}
+
+
+div.col-6.col-lg-3 svg {
+    fill:  darkred;
+}
+
+.rettangolo {
+    margin: 29px auto;
+    width: 70%;
+    height: 5px;
+    background-color: darkred;
+}
+
+.cerchio {
+    width: 25px;
+    height: 25px;
+    border: 4px solid darkred;
+    border-radius:  50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 11vw;
+    bottom: -1vh;
+}
+
+.decoration {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .cerchio {
+        left: 23vw;
+    }
+}
+
+.margin-row {
+    margin-top: 10vh;
+}
+
+.tree {
+    
+    width: 100%; 
+    background-color: #ececec ;
+}
+
+.tree img {
+    /* flip horizontally */
+    
+    width: 100%;
+ 
+    
+
+}
+
+.button-bold {
+    
+    font-weight: bolder;
+}
+
+.myposition {
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+    .myposition {
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+}
+.virgolette {
+    position: relative;
+    font-weight: bolder;
+    
+
+}
+.virgolette::before {
+    content: open-quote;
+    color: darkred;
+    font-size: 50px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.virgolette::after {
+    content: close-quote;
+    color: darkred;
+    font-size: 50px;
+}
+
+.vertical-timeline {
+    height: 90vh;
+    width: 3px;
+    background-color: darkred;
+    left: 20px;
+}
+
+@media (max-width: 768px) {
+    .vertical-timeline {
+        height: 100vh;
+    }
+}
+
+.cerchio-tl {
+    width: 19px;
+    height: 19px;
+    border: 3px solid darkred;
+    border-radius:  50%;
+    background-color: rgb(255, 255, 255);
+    margin-right: 2vw;
+    
+}
+
+.row-tl {
+    height: 80vh;
+    
+}
+
+@media (max-width: 768px) {
+    .row-tl {
+        height: 100vh;
+    }
+}
+
+.alberi_a_destra {
+    width: 100%;
+    position: relative;
+    
+}
+
+.section-3 {
+    height: 110vh;
+}
+
+.border_card {
+   border: 2px solid darkred;
+   
+}
+
+ 
+.imground {
+    border-radius: 50%;
+    
+}
+
+.boxround {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid darkred;
+}
+
+.mycard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.s3 {
+    padding-bottom: 200px;
+}
+
+.section-4 {
+    background-color: #ececec;
+   
+}
+
+.boxround2 {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid darkred;
+}
+
+.redtree {
+    width: 100%;
+    
+}
+
+.redtree img {
+    width: 100%;
+    
+}
+
+.footer {
+    background-color: darkred;
+    
+}
